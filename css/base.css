@@ -1,6 +1,11 @@
+:root {
+  --color-main: #ff0a2d;
+  --color-main-light: #fc5e76;
+}
+
 ::selection,
 -moz-::selection {
-  background: #fe796a;
+  background: var(--color-main-light);
 }
 
 .layout-padding {

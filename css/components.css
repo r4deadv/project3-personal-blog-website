@@ -28,6 +28,22 @@
   .social-link {
     margin-bottom: 1rem;
   }
+
+  input[type="submit"] {
+    align-self: center;
+  }
+
+  .blog-intro {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .intro-info {
+    margin-top: 5%;
+    max-width: 100%;
+    text-align: center;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -52,5 +68,21 @@
 
   #email {
     margin-bottom: 1rem;
+  }
+
+  input[type="submit"] {
+    align-self: center;
+  }
+
+  .blog-intro {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .intro-info {
+    margin-top: 5%;
+    max-width: 85%;
+    text-align: center;
   }
 }

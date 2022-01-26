@@ -3,12 +3,41 @@ body {
   grid-template-rows: auto auto 1fr auto;
   min-height: 100vh;
   margin: 0 auto;
-  font-family: "Graphic Regular";
+  font-family: "Graphic Regular", Arial, Helvetica, sans-serif;
 }
 
 .main-container {
   max-width: 950px;
   margin: 1rem auto;
+}
+
+.blog-intro {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 15% 0;
+  color: #343a40;
+}
+
+.intro-img {
+  border-radius: 50%;
+  max-width: 200px;
+  filter: contrast(120%) brightness(120%);
+}
+
+.intro-info {
+  align-self: center;
+  max-width: 70%;
+  margin-left: 4%;
+}
+
+.intro-info h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Graphic Semibold", Helvetica, Arial, sans-serif;
+}
+
+.intro-info p {
+  font-size: 1.2rem;
 }
 
 #hero {
