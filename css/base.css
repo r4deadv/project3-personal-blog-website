@@ -1,0 +1,68 @@
+::selection,
+-moz-::selection {
+  background: #fe796a;
+}
+
+.layout-padding {
+  padding: 1rem;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: Graphic Regular;
+  src: url("/fonts/Graphik-Font-Family/GraphikRegular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Graphic Regular Italic;
+  src: url("/fonts/Graphik-Font-Family/GraphikRegularItalic.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: Graphic Light;
+  src: url("/fonts/Graphik-Font-Family/GraphikLight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Graphic Light Italic;
+  src: url("/fonts/Graphik-Font-Family/GraphikLightItalic.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: Graphic Medium;
+  src: url("/fonts/Graphik-Font-Family/GraphikMedium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Graphic Medium Italic;
+  src: url("/fonts/Graphik-Font-Family/GraphikMediumItalic.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: Graphic Semibold;
+  src: url("/fonts/Graphik-Font-Family/GraphikSemibold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Graphic Semibold Italic;
+  src: url("/fonts/Graphik-Font-Family/GraphikSemiboldItalic.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: Graphic Super;
+  src: url("/fonts/Graphik-Font-Family/GraphikSuper.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Graphic Semibold Italic;
+  src: url("/fonts/Graphik-Font-Family/GraphikSemiboldItalic.otf")
+    format("opentype");
+}

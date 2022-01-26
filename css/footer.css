@@ -1,0 +1,80 @@
+footer {
+  background: #343a40;
+  box-shadow: 0 0 10px rgba(118, 121, 122, 0.5);
+  color: whitesmoke;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#social-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 1.5em;
+}
+
+#social-container .fab {
+  color: whitesmoke;
+  font-size: 3em;
+  display: block;
+  padding: 0 0.5em;
+  transition: 0.2s linear;
+}
+
+#social-container .fab:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+#subscription-form {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+  margin-bottom: 1.5em;
+}
+
+.input-wrap {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 0 5px;
+}
+
+.copy {
+  color: rgba(245, 245, 245, 0.5);
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+input {
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  padding: 5px 50px;
+  margin-right: 10px;
+}
+
+input[placeholder] {
+  font-size: 1.2rem;
+  padding-left: 5px;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  border: none;
+  color: antiquewhite;
+  background: #fe796a;
+  padding: 5px 15px;
+}
+
+.submit-button:hover {
+  background: #fb9b94;
+}

@@ -5,11 +5,113 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Blog</title>
+  <meta name="description" content="Personal Blog Page by Rade Mihovilovic">
+  <title>Personal Blog Website - Main page</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/bcb04c96a9.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+  <!-- header -->
+  <header class="layout-padding">
+    <div class="container header-container">
+      <div id="header-logo-container">
+        <div id="header-logo-img-container">
+          <a id="header-logo-link" href="#social-container"><img id="header-logo-img" src="images/rade.mihovilovic.jpg"
+              alt="author logo"></a>
+        </div>
+        <p class="author-name">Rade Mihovilovic</p>
+      </div>
 
+      <!-- nav -->
+      <nav id="header-nav">
+        <ul class="site-nav">
+          <li><a href="#" class="site-nav-item">home</a></li>
+          <li><a href="#" class="site-nav-item">blog post</a></li>
+          <li><a href="#" class="site-nav-item">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- main -->
+  <main class="main-container">
+    <section id="hero">
+      <img id="hero-img" src="images/pierre-chatel-innocenti.jpg" alt="palms">
+      <div class="description-wrapper">
+        <h2>Lorem, ipsum dolor</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure velit maxime consequatur non explicabo magnam
+          suscipit facilis aperiam expedita, nam iste est enim quam, officiis incidunt quos magni sed ab...
+        </p>
+      </div>
+      <a href="3" id="hero-button">Continue reading</a>
+    </section>
+    <section id="posts" class="card-container">
+      <article class="card-post">
+        <img class="card-post-img" src="images/p-clean-2-1.jpg" alt="post 1">
+        <a href="post.html" class="card-post-img-link">
+          <img class="" src="images/link-solid.svg" alt="link icon">
+        </a>
+      </article>
+      <article class="card-post">
+        <img class="card-post-img" src="images/p-clean-2-2.jpg" alt="post 2">
+        <a href="post.html" class="card-post-img-link">
+          <img class="" src="images/link-solid.svg" alt="link icon">
+        </a>
+      </article>
+      <article class="card-post">
+        <img class="card-post-img" src="images/p-clean-2-3.jpg" alt="post 3">
+        <a href="post.html" class="card-post-img-link">
+          <img class="" src="images/link-solid.svg" alt="link icon">
+        </a>
+      </article>
+      <article class="card-post">
+        <img class="card-post-img" src="images/p-clean-2-4.jpg" alt="post 4">
+        <a href="post.html" class="card-post-img-link">
+          <img class="" src="images/link-solid.svg" alt="link icon">
+        </a>
+      </article>
+      <article class="card-post">
+        <img class="card-post-img" src="images/p-clean-2-5.jpg" alt="post 5">
+        <a href="post.html" class="card-post-img-link">
+          <img class="" src="images/link-solid.svg" alt="link icon">
+        </a>
+      </article>
+      <article class="card-post">
+        <img class="card-post-img" src="images/p-clean-2-6.jpg" alt="post 6">
+        <a href="post.html" class="card-post-img-link">
+          <img class="" src="images/link-solid.svg" alt="link icon">
+        </a>
+      </article>
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer class="layout-padding">
+    <div class="container footer-container">
+      <section id="social-container">
+        <a class="social-link" href="#"><i class="fab fa-twitter"></i></a>
+        <a class="social-link" href="#"><i class="fab fa-facebook"></i></a>
+        <a class="social-link" href="#"><i class="fab fa-linkedin"></i></a>
+        <a class="social-link" href="#"><i class="fab fa-github"></i></a>
+      </section>
+      <section id="subscription">
+        <form id="subscription-form" action="index.html">
+          <div class="input-wrap">
+            <label for="name">Your Name</label>
+            <input id="name" type="text" placeholder="Your name">
+          </div>
+          <div class="input-wrap">
+            <label for="email">Your email</label>
+            <input id="email" type="email" placeholder="Your email">
+          </div>
+          <input class="submit-button" type="submit" value="Subscribe"></button>
+        </form>
+        <p class="copy">Copy&copy Rade Mihovilovic 2022</p>
+      </section>
+    </div>
+  </footer>
 </body>
 
 </html>
