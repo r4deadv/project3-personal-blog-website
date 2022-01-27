@@ -186,8 +186,8 @@ figcaption {
 /* aside */
 .searchContainer {
   display: flex;
-  flex: 1 1 300px;
-  border: 1px solid rgb(128, 128, 128);
+  flex: 1 1 20%;
+  border: 1px solid #808080;
   border-radius: 20px;
   align-items: center;
   overflow: hidden;
@@ -197,18 +197,29 @@ figcaption {
 .searchIcon {
   padding: 0.5rem;
   font-size: 1.5rem;
+  color: var(--color-main);
+}
+
+.searchIcon:hover {
+  color: var(--color-main-light);
 }
 
 .searchBox {
   padding: 0.25rem 0.5rem 0.25rem 0;
   flex: 1;
+  margin-left: 1rem;
+  /* border-bottom: 1px solid #808080; */
 }
 
-.searchButton {
-  color: whitesmoke;
-  padding: 0.5rem;
-  border-radius: 20px;
-  background: var(--color-main);
+.searchBox:focus-visible,
+.searchBox:focus {
+  outline: transparent;
+  caret-color: var(--color-main);
+}
+
+.searchButton:hover {
+  background: var(--color-main-light);
+  cursor: pointer;
 }
 
 .tags h3 {
