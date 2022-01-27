@@ -1,6 +1,12 @@
 :root {
   --color-main: #ff0a2d;
   --color-main-light: #fc5e76;
+  --main-text-color: #343a40;
+  --font-regular: "GraphicRegular", Helvetica, Arial, sans-serif;
+  --font-bold: "Graphic Semibold", Helvetica, Arial, sans-serif;
+  --font-regular-italic: "Graphic Regular Italic", Helvetica, Arial, sans-serif;
+  --font-bold-italic: "Graphic Semibold Italic", Helvetica, Arial, sans-serif;
+  scroll-behavior: smooth;
 }
 
 ::selection,
@@ -18,45 +24,45 @@
 }
 
 @font-face {
-  font-family: Graphic Regular;
+  font-family: GraphicRegular;
   src: url("/fonts/Graphik-Font-Family/GraphikRegular.otf") format("opentype");
 }
 
 @font-face {
-  font-family: Graphic Regular Italic;
+  font-family: "Graphic Regular Italic";
   src: url("/fonts/Graphik-Font-Family/GraphikRegularItalic.otf")
     format("opentype");
 }
 
 @font-face {
-  font-family: Graphic Light;
+  font-family: "Graphic Light";
   src: url("/fonts/Graphik-Font-Family/GraphikLight.otf") format("opentype");
 }
 
 @font-face {
-  font-family: Graphic Light Italic;
+  font-family: "Graphic Light Italic";
   src: url("/fonts/Graphik-Font-Family/GraphikLightItalic.otf")
     format("opentype");
 }
 
 @font-face {
-  font-family: Graphic Medium;
+  font-family: "Graphic Medium";
   src: url("/fonts/Graphik-Font-Family/GraphikMedium.otf") format("opentype");
 }
 
 @font-face {
-  font-family: Graphic Medium Italic;
+  font-family: "Graphic Medium Italic";
   src: url("/fonts/Graphik-Font-Family/GraphikMediumItalic.otf")
     format("opentype");
 }
 
 @font-face {
-  font-family: Graphic Semibold;
+  font-family: "Graphic Semibold";
   src: url("/fonts/Graphik-Font-Family/GraphikSemibold.otf") format("opentype");
 }
 
 @font-face {
-  font-family: Graphic Semibold Italic;
+  font-family: "Graphic Semibold Italic";
   src: url("/fonts/Graphik-Font-Family/GraphikSemiboldItalic.otf")
     format("opentype");
 }
